@@ -1,4 +1,4 @@
-# Spotify Playlist Downloader With Windows GUI
+# Spotify Playlist Downloader With Java GUI
 
 ![image](guitool12.png)
 
@@ -9,11 +9,10 @@ When done downloading it also writes the ID3 data and album art to the file.
 
 ###To install:
 Install nodejs (USE INSTALLER!! Install 64bit if you're on a 64bit system!!!) if you haven't already. ([NodeJS Downloads](https://nodejs.org/en/download/))  
-Microsoft .NET Framework 4.6 if you haven't already. ([Download](https://www.microsoft.com/en-US/download/details.aspx?id=48130))
 
 Then download this repository ([HERE](https://github.com/dekiller82/spotify-playlist-downloader-with-windows-gui/archive/master.zip)) or use the button on github. 
 
-Unpack the repository and run the .exe (source code can be found [here]( https://github.com/dekiller82/Spotify-Playlist-Downloader-GUI))
+Unpack the repository and run the .jar (source code included)
 
 ###First Time Setup (Only needs to be done right after downloading)
 
@@ -21,7 +20,7 @@ Unpack the repository and run the .exe (source code can be found [here]( https:/
 
 Step 1: Enter Spotify Login Credentials (WARNING CREDENTIALS ARE STORED IN PLAIN TEXT)
 
-Step 2: Click the "npm install" button and wait for it to put some shit in the window.
+Step 2: Click the "NPM Install" button and wait for it say Node Install Finished
 
 ###How To Get Playlist URL
 
@@ -32,59 +31,7 @@ https://play.spotify.com/user/spotify/playlist/6RsopNg2yrLjKiu00jaCyi
 
 Paste that in to the Spotify Playlist URL Textbox
 
-###Changelog
-
-#####V1.2
-
-**IF YOU ALREADY HAVE V1.1.6 OR BELOW PLEASE FULLY REINSTALL THIS REPOSITORY**
-
-Tool now also downloads album art and attaches it.
-
-You can now download up to 5 playlists in 1 go
-
-Instead of opening a new prompt for downloading output is now in the program
-
-#####V1.1.6
-
-Bugfix for underscores in usernames
-
-#####V1.1.5
-
-Added security feature to wipe password after download.
-
-#####V1.1
-
-You can now download up to 3 playlists in 1 go
-
-#####V1.0.6
-
-NodeJS launch bugfix
-
-#####V1.0.5
-
-Added option for /Artist/Album file structure
-
-#####V1.0.1
-
-Updated default download folder to the Windows Music folder.
-
-Updated Layout
-
-#####V1
-
-Initial Release
-
-###TO-DO
-
-Add option to set download folder (For now songs will be saved to: C:\Users\youruser\Music)
-
-~~Add option to download multiple playlists~~ DONE! Since V1.1
-
-~~Add option to download all mp3's to a single folder~~ DONE! Since V1.0.5 with the Artist/Album option
-
 ###Additional Comments
-
-If you get any errors please go to "C:\Program Files\nodejs" and see if node.exe and npm.cmd are installed there
 
 To download Albums for now the only way to do it is to add the songs to a playlist and then download that playlist.
 
@@ -105,6 +52,5 @@ rd /s "\?\C:\Documents and Settings\User\Desktop\Annoying Folder."
 ### Disclaimer:
 
 - This was done purely as an academic exercise.
-- This my first coding project so code is sloppy en ugly
-- I do not recommend you doing this illegally or against Spotify's terms of service.
+- I do not recommend you doing this as it may be illegal and/or against Spotify's terms of service.
 
