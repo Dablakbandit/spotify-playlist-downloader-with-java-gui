@@ -226,7 +226,7 @@ public class GUI extends JFrame{
 	}
 
 	protected void start(){
-		if(nt != null || nt.getRunning()){
+		if(nt != null&&nt.getRunning()){
 			nodeProcess("Installing Node");
 			return;
 		}
