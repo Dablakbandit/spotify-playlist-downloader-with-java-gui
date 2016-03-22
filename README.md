@@ -10,7 +10,7 @@ When done downloading it also writes the ID3 data and album art to the file.
 ###To install:
 Install nodejs (USE INSTALLER!! Install 64bit if you're on a 64bit system!!!) if you haven't already. ([NodeJS Downloads](https://nodejs.org/en/download/))  
 
-Then download this repository ([HERE](https://github.com/dekiller82/spotify-playlist-downloader-with-windows-gui/archive/master.zip)) or use the button on github. 
+Then download this repository ([HERE](https://github.com/Dablakbandit/spotify-playlist-downloader-with-java-gui/archive/master.zip)) or use the button on github. 
 
 Unpack the repository and run the .jar (source code included)
 
