@@ -29,7 +29,7 @@ Your URL should look something like this:
 
 https://play.spotify.com/user/spotify/playlist/6RsopNg2yrLjKiu00jaCyi
 
-Paste that in to the Spotify Playlist URL Textbox
+Paste that in to the URL Textbox
 
 ###Additional Comments
 
